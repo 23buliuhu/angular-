@@ -1,0 +1,21 @@
+{
+  "name": "angularjs",
+  "authors": [
+    "23buliuhu <23buliuhu@163.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-ui-router": "ui-router#0.3.1"
+  }
+}
