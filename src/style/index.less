@@ -1,0 +1,27 @@
+@import "cssreset";
+@import "template/head";
+@import "template/foot";
+@import "properties";
+
+.fs(@px) {
+  font-size: unit(@px / 37.5, rem);
+}
+
+.w(@px) {
+  width: unit(@px / 37.5, rem);
+}
+
+.h(@px) {
+  height: unit(@px / 37.5, rem);
+}
+html,body{
+  height: 100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+ /* background-color: @bodyBgColor;*/
+  .fs(16);
+}
